@@ -1,0 +1,15 @@
+#Blocker Arcade Game
+
+Here are the programs:
+i. Begin to write the Blocker arcade game. Include a 300x300 pixel light blue playing field, a 25x25 pixel red goal area in the lowerleft corner of the field and a ‘Go’ button that will be used to start the game.
+ii. Continue writing the Blocker game by adding a blue ball that fills a 10x10 pixel bounding box. Clicking the ‘Go’ button should place the ball at random on the playing area.
+iii. Continue writing the Blocker game by animating the ball. It should move diagonally, 5 pixels horizontally and 5 pixels vertically with each step. Steps should occur 10 times per second. The ball should bounce when it reaches the edge of the playing field.
+iv. Continue writing the Blocker game by adding player control. Left clicking on the field should create a 40x6 pixel horizontal block. Right clicking on the field should create a 6x40 pixel vertical block. Creating a block should remove any existing one, so that only one block is present at any time. The ball should bounce appropriately when it hits each kind of block.
+v. Finish the Blocker game by: (1) causing it to stop when the ball enters the goal (2) increasing the animation step rate to 50 per second (3) adding a display of elapsed time and (4) arranging for a click of the ‘Go’ button to remove the ball and any existing block from the previous game.
+
+1. Modify the Blocker game program by making it easy to change the size of the playing field. Include a line like this one to assign a global name early in the code:
+fieldSize = 600
+Then use the name appropriately in the rest of your code. Using this approach, you should be able to adjust the playing field to any size just by changing the number in the line above.
+2. Modify the Blocker game so that the ball will not enter the goal unless the user intervenes. In the original version, the ball sometimes starts out on a path that will lead it into the goal even if it is never blocked.
+3. Modify the Blocker game so that the goal moves horizontally, one pixel per animation step, bouncing when it hits either side of the playing field.
+4. Modify the Blocker game so that the user plays five rounds and sees his or her total elapsed time.
